@@ -1,0 +1,9 @@
+**/fp-info-cache
+**/backups
+**/*-backups
+**/fabrication-toolkit-options.json
+**/production/netlist.ipc
+**/production/designators.csv
+
+# lock files
+**/*.lck
