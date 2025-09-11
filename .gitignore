@@ -1,9 +1,14 @@
 **/fp-info-cache
 **/backups
 **/*-backups
+# crash backup
+**/*-bak
 **/fabrication-toolkit-options.json
 **/production/netlist.ipc
 **/production/designators.csv
 
 # lock files
 **/*.lck
+
+# Libreoffice backups
+.~lock.*#
