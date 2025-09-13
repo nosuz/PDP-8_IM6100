@@ -12,3 +12,5 @@
 
 # Libreoffice backups
 .~lock.*#
+
+/tmp
