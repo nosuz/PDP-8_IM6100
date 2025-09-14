@@ -11,7 +11,7 @@
 		(company "@nosuz")
 	)
 	(lib_symbols
-		(symbol "0my_project:DTSM-6x"
+		(symbol "0my_project:DTSM-63N-V-T/R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Value" "DTSM-6x"
+			(property "Value" "DTSM-63N-V-T/R"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131733_Diptronics-DTSM-62R-V-T-R_C224979.pdf"
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899446814363648"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C224978"
+			(property "LCSC" "C133973"
 				(at 0 0 0)
 				(effects
 					(font
@@ -92,7 +92,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DTSM-6x_0_1"
+			(symbol "DTSM-63N-V-T/R_0_1"
 				(rectangle
 					(start -2.54 1.27)
 					(end 2.54 1.905)
@@ -138,7 +138,7 @@
 					)
 				)
 			)
-			(symbol "DTSM-6x_1_1"
+			(symbol "DTSM-63N-V-T/R_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -10392,7 +10392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0my_project:DTSM-6x")
+		(lib_id "0my_project:DTSM-63N-V-T/R")
 		(at 222.25 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10409,13 +10409,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTSM-644R-V-T/R"
-			(at 223.52 109.2199 90)
+		(property "Value" "DTSM-63N-V-T/R"
+			(at 224.79 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10428,7 +10427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131733_Diptronics-DTSM-62R-V-T-R_C224979.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899446814363648"
 			(at 222.25 107.95 0)
 			(effects
 				(font
@@ -10446,7 +10445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C483869"
+		(property "LCSC" "C133973"
 			(at 222.25 107.95 0)
 			(effects
 				(font
@@ -10643,7 +10642,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0my_project:DTSM-6x")
+		(lib_id "0my_project:DTSM-63N-V-T/R")
 		(at 234.95 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10660,13 +10659,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTSM-644R-V-T/R"
-			(at 236.22 109.2199 90)
+		(property "Value" "DTSM-63N-V-T/R"
+			(at 237.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10679,7 +10677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131733_Diptronics-DTSM-62R-V-T-R_C224979.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899446814363648"
 			(at 234.95 107.95 0)
 			(effects
 				(font
@@ -10697,7 +10695,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C483869"
+		(property "LCSC" "C133973"
 			(at 234.95 107.95 0)
 			(effects
 				(font
@@ -12314,7 +12312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0my_project:DTSM-6x")
+		(lib_id "0my_project:DTSM-63N-V-T/R")
 		(at 259.08 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12331,13 +12329,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTSM-644R-V-T/R"
-			(at 260.35 109.2199 90)
+		(property "Value" "DTSM-63N-V-T/R"
+			(at 261.62 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12350,7 +12347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131733_Diptronics-DTSM-62R-V-T-R_C224979.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899446814363648"
 			(at 259.08 107.95 0)
 			(effects
 				(font
@@ -12368,7 +12365,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C483869"
+		(property "LCSC" "C133973"
 			(at 259.08 107.95 0)
 			(effects
 				(font
@@ -15878,7 +15875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0my_project:DTSM-6x")
+		(lib_id "0my_project:DTSM-63N-V-T/R")
 		(at 247.65 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15895,13 +15892,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTSM-644R-V-T/R"
-			(at 248.92 109.2199 90)
+		(property "Value" "DTSM-63N-V-T/R"
+			(at 250.19 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -15914,7 +15910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131733_Diptronics-DTSM-62R-V-T-R_C224979.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899446814363648"
 			(at 247.65 107.95 0)
 			(effects
 				(font
@@ -15932,7 +15928,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C483869"
+		(property "LCSC" "C133973"
 			(at 247.65 107.95 0)
 			(effects
 				(font
@@ -17581,7 +17577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "0my_project:DTSM-6x")
+		(lib_id "0my_project:DTSM-63N-V-T/R")
 		(at 270.51 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17598,13 +17594,12 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DTSM-644R-V-T/R"
-			(at 271.78 109.2199 90)
+		(property "Value" "DTSM-63N-V-T/R"
+			(at 273.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17617,7 +17612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131733_Diptronics-DTSM-62R-V-T-R_C224979.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899446814363648"
 			(at 270.51 107.95 0)
 			(effects
 				(font
@@ -17635,7 +17630,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C483869"
+		(property "LCSC" "C133973"
 			(at 270.51 107.95 0)
 			(effects
 				(font
