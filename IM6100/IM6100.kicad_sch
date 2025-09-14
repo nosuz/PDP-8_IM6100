@@ -4567,15 +4567,6 @@
 		(uuid "2d3e098f-64d7-419d-a619-52cc613463ac")
 	)
 	(bus_entry
-		(at 144.78 30.48)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0afb52-d651-48b5-b5c1-49e180496280")
-	)
-	(bus_entry
 		(at 181.61 73.66)
 		(size 2.54 -2.54)
 		(stroke
@@ -6371,16 +6362,6 @@
 			(type default)
 		)
 		(uuid "2f00790d-0ce2-4f05-a9b6-851b8224405b")
-	)
-	(wire
-		(pts
-			(xy 161.29 27.94) (xy 147.32 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f23b8f5-eeea-4acb-a73a-e14820b41050")
 	)
 	(wire
 		(pts
@@ -8324,16 +8305,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 27.94) (xy 161.29 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c578a43f-90d6-4989-9e57-53fe9c18b217")
-	)
-	(wire
-		(pts
 			(xy 78.74 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -8371,16 +8342,6 @@
 			(type default)
 		)
 		(uuid "c8f3b342-ac35-4b27-86c3-90a44ee1c4a5")
-	)
-	(wire
-		(pts
-			(xy 161.29 36.83) (xy 161.29 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9bac733-8ddd-40f6-9c44-114b413ee51d")
 	)
 	(bus
 		(pts
@@ -10392,16 +10353,6 @@
 		)
 		(uuid "fab34bf9-1c0d-4f77-bac0-b82c3f0b600d")
 	)
-	(label "~{RESET_3V3}"
-		(at 148.59 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcd3b019-240b-43a2-942f-3ef5bab2512d")
-	)
 	(label "{IM_BUS}"
 		(at 36.83 127 0)
 		(effects
@@ -11589,71 +11540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 161.29 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "560007c9-5c16-4d58-a8ac-a3227f4fc785")
-		(property "Reference" "#PWR024"
-			(at 161.29 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 40.132 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85b65bce-b7e6-46e8-b991-93981e4e8861")
-		)
-		(instances
-			(project "IM6100"
-				(path "/53a0cf52-832d-4c44-bbfc-bbaea7dc652e"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 38.1 50.8 0)
 		(unit 1)
@@ -12455,84 +12341,6 @@
 			(project "IM6100"
 				(path "/53a0cf52-832d-4c44-bbfc-bbaea7dc652e"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 161.29 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "814d10b5-1731-4441-b893-05e99d794433")
-		(property "Reference" "R2"
-			(at 163.068 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "51K"
-			(at 163.068 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "0my_project:R_1608_0603"
-			(at 159.512 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23196"
-			(at 161.29 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "706a314d-af1a-472b-9da0-a75133e04036")
-		)
-		(pin "1"
-			(uuid "62c62732-17ec-4115-8edd-86aa3d52376b")
-		)
-		(instances
-			(project "IM6100"
-				(path "/53a0cf52-832d-4c44-bbfc-bbaea7dc652e"
-					(reference "R2")
 					(unit 1)
 				)
 			)
