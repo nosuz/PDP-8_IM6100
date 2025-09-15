@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "Akizuki" "IC socket: 100241 x 2"
+			(property "Akizuki" "IC socket: 100034"
 				(at 0 0 0)
 				(effects
 					(font
@@ -12176,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Akizuki" "IC socket: 100241 x 2"
+		(property "Akizuki" "IC socket: 100034"
 			(at 62.23 73.66 0)
 			(effects
 				(font
