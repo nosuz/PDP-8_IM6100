@@ -1,4 +1,5 @@
 .build/
 impl/
 dependencies/
+src/*.sv.map
 *.f

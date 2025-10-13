@@ -7,8 +7,8 @@
 
 -mod_name Gowin_OSC
 -file_name gowin_osc
--path /home/nosuzuki/reposit/PDP-8_IM6100/TangNano9K/board_test/src/gowin_osc/
+-path //wsl.localhost/Ubuntu/home/nosuzuki/fpga/PDP-8_IM6100/TangNano9K/board_test/src/gowin_osc/
 -type OSC
 -file_type vlg
 -dev_type GW1NR-9C
--freq_div 2
+-freq_div 100

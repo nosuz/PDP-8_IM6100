@@ -1,0 +1,53 @@
+module Blinker (
+    led1     : output bit,
+    led2     : output bit,
+    led3     : output bit,
+    led4     : output bit,
+    led5     : output bit,
+    led6     : output bit,
+    s1       : input  bit,
+    s2       : input  bit,
+    clock_out: output bit,
+) {
+    var led: bit<6>;
+    // !led is not bitwise NOT.
+    assign {led6, led5, led4, led3, led2, led1} = ~led;
+    // assign led1 = led[0];
+    // assign led2 = led[1];
+    // assign led3 = led[2];
+    // assign led4 = led[3];
+    // assign led5 = led[4];
+    // assign led6 = led[5];
+
+    let rst: reset_async_low = s1 & s2;
+
+    var int_clock: clock;
+    // 2.62MHz at FREQ_DIV = 100
+    // Max. freq. will be 131MHz with FREQ_DIV = 2
+    inst osc: $sv::Gowin_OSC (
+        oscout: int_clock //output oscout
+        ,
+    );
+    assign clock_out = int_clock;
+
+    var counter: u32;
+    always_ff (int_clock, rst) {
+        if_reset {
+            led     = 0;
+            counter = 0;
+        } else {
+            if counter >: 'hffff {
+                counter = 0;
+
+                led += 1;
+                // if led >: 6'b100_000 {
+                //     led = !1;
+                // } else {
+                //     led += 1;
+                // }
+            } else {
+                counter += 1;
+            }
+        }
+    }
+}
